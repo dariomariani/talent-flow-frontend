@@ -19,5 +19,6 @@ export const useAppStore = defineStore('app', {
   },
   getters: {
     isAuthenticated: (state) => !!state.authData?.token,
-  }
+  },
+  persist: true,
 })

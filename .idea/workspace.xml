@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba7eac9e-219b-49b2-ba96-9e08c8176223" name="Changes" comment="project scaffolded" />
+    <list default="true" id="ba7eac9e-219b-49b2-ba96-9e08c8176223" name="Changes" comment="commit workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/index.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,6 +104,7 @@
       <workItem from="1735979560882" duration="3287000" />
       <workItem from="1740250719935" duration="85000" />
       <workItem from="1740250946408" duration="3209000" />
+      <workItem from="1740395780042" duration="8609000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -138,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740339763739</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit workspace.xml">
+      <option name="closed" value="true" />
+      <created>1740395799912</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740395799912</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +166,7 @@
     <MESSAGE value="committed gitignore" />
     <MESSAGE value="deleted .vscode" />
     <MESSAGE value="project scaffolded" />
-    <option name="LAST_COMMIT_MESSAGE" value="project scaffolded" />
+    <MESSAGE value="commit workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit workspace.xml" />
   </component>
 </project>

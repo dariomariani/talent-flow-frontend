@@ -1,8 +1,13 @@
 <script lang="ts">
 import {defineComponent} from 'vue'
+import {useAppStore} from "@/stores/app";
 
 export default defineComponent({
   name: "NavBar",
+  setup() {
+    const appStore = useAppStore(); // Use the store
+    return { appStore };
+  },
   data() {
     return {
       drawer: false,
@@ -12,6 +17,12 @@ export default defineComponent({
         { title: 'Contact', route: '/contact' }
       ]
     };
+  },
+  methods: {
+    logout() {
+      console.log("User logged out");
+      this.appStore.clearAuthData();
+    }
   }
 })
 </script>
@@ -41,6 +52,9 @@ export default defineComponent({
         :to="item.route"
       >
         <v-list-item-title>{{ item.title }}</v-list-item-title>
+      </v-list-item>
+      <v-list-item @click="logout">
+        <v-list-item-title>Logout</v-list-item-title>
       </v-list-item>
     </v-list>
   </v-navigation-drawer>
