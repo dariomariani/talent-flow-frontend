@@ -5,9 +5,15 @@ interface AuthData {
   token: string;
 }
 
+interface UserData {
+  displayName: string;
+  role: string;
+}
+
 export const useAppStore = defineStore('app', {
   state: () => ({
     authData: null as AuthData | null, // Stores user authentication info
+    userData: null as UserData | null,
   }),
   actions: {
     setAuthData(payload: AuthData) {
@@ -15,6 +21,10 @@ export const useAppStore = defineStore('app', {
     },
     clearAuthData() {
       this.authData = null;
+      this.userData = null;
+    },
+    setUserData(payload: UserData) {
+      this.userData = payload;
     },
   },
   getters: {

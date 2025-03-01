@@ -16,4 +16,5 @@ import Login from "@/pages/Login.vue";
 import {useAppStore} from "@/stores/app";
 
 const appStore = useAppStore();
+
 </script>

@@ -6,3 +6,9 @@ export interface LoginDto {
 export interface AuthDto {
   token: string
 }
+
+export interface UserDto {
+  username: string
+  displayName: string
+  role: string
+}
