@@ -29,6 +29,7 @@ export const useAppStore = defineStore('app', {
   },
   getters: {
     isAuthenticated: (state) => !!state.authData?.token,
+    isRecruiter: (state) => state.userData?.role === "RECRUITER",
   },
   persist: true,
 })

@@ -7,6 +7,9 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    JobCard: typeof import('./components/JobCard.vue')['default']
+    JobCreateDialog: typeof import('./components/JobCreateDialog.vue')['default']
+    JobList: typeof import('./components/JobList.vue')['default']
     LoginForm: typeof import('./components/LoginForm.vue')['default']
     NavBar: typeof import('./components/NavBar.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
